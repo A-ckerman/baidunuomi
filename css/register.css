@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body,iframe,dl,dt,dd,ul,li,div,table,td,tr,input,p{ margin:0px; padding:0px; list-style:none; }
+/*头部*/
+#head { width:985px; height:75px; margin:0px auto;}
+#head #logo{ float:left; margin-top:20px;}
+#head #login{ float:right; margin-top:30px; height:35px; line-height:35px; font-size:12px; color:#333333;}
+#head #login #loignBtn{ width:60px; height:35px; line-height:35px; text-align:center; font-family:"微软雅黑"; border:1px solid #ccc; display:inline-block; font-size:14px; text-decoration:none; border-radius:3px; margin-left:5px; color:#333; background-color:#F4F4F4;}
+/*头部阴影*/
+#headShadow{width:1200px; height:20px; background:url(../images/register/reg_hr.png) no-repeat; margin:0px auto;}
+
+#main { width:985px; margin:40px auto;}
+#main table{ font-family:"微软雅黑";}
+/*文本框密码框样式*/
+#main #email,#pwd,#checkimg{ width:350px; height:40px;border: 1px solid #ddd; margin-left:10px;}
+/*是否同意*/
+#main #checkimg{ width:200px;}
+#main #cimg{ vertical-align:bottom; border:1px solid #DDDDDD; margin-left:10px; margin-right:10px;}
+/*换一张*/
+#main a{ text-decoration:none; font-size:12px;}
+/*协议*/
+#main #ok{ font-size:12px; color:#444;}
+/*注册按钮*/
+#main #submit{background-color: #fa6790; width:350px; height:50px; background-color: #fa6790; border:0px solid; border-radius:3px; color:#FFF; font-size:16px; font-family:"微软雅黑"; font-weight:bold;}
+#main #quick{ width:240px; height:160px;border: 1px solid #d1eeff;background-color: #f5fbff; padding:10px;text-align:left; }
+#main #quick #title{ background:url(../images/register/phone_55e296f2.png) no-repeat; height:40px; text-indent:30px; line-height:35px; color:#333;}
+#main #quick .smallText{ font-size:12px; color:#333;}
+#main #quick .orgText{ font-size: 14px;color: #f18300;font-weight: bold;}
+#foot{ width:985px; height:30px; text-align:center; margin:0px auto; color:#999999; font-family:"微软雅黑";}

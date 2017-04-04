@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul, li, div, p {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{ text-decoration:none;}
+#head {
+	width: 100%;
+	border-bottom: 1px dotted #d9d9d9;
+	font-family: SimSun;
+	font-size: 14px;
+	color: #666;
+}
+
+.path {
+	width: 980px;
+	height: 48px;
+	margin: 0px auto;
+	line-height: 48px;
+}
+#good {
+	width: 980px;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+#goodimg {
+	width: 500px;
+	height: 394px;
+	float: left;
+}
+#goodinfo {
+	width: 450px;
+	height: 412px;
+	float: left;
+	padding-left: 25px;
+}
+#goodinfo .tit {
+	font-size: 25px;
+	font-family: 微软雅黑;
+}
+#goodinfo .jies {
+	font: 14px SimSun;
+	color: #999;
+	line-height: 20px;
+	margin-top: 10px;
+}
+.price {
+	float: left;
+	width: 184px;
+	height: 92px;
+	font: 80px Arial;
+	color: #fd8e51
+}
+.pri {
+	color: #fd8e51;
+	font: 30px Arial;
+}
+.oldprice {
+	width: 54px;
+	height: 47pxa;
+	margin: 20px 0 0 25px;
+	float: left;
+}
+.sale {
+	font: 14px Arial;
+	color: #fff;
+	line-height: 21px;
+	background-image: url(images/goodsinfo/ico_discount_8b6ef87.png);
+	text-align: center;
+}
+.oldpri {
+	font: 16px Arial;
+	color: #999;
+}
+.peo {
+	width: 450px;
+	height: 71px;
+	font: 12px 微软雅黑;
+	color: #999;
+	clear: both;
+}
+.peo li img {
+	vertical-align: middle;
+}
+.peo li {
+	line-height: 70px;
+	float: left;
+	width: 148px;
+	height: 70px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #f5f5f5;
+	background: #fafafa;
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+}
+.peo li div {
+	height: 20px;
+	width: 85px;
+	line-height: 45px;
+	margin: 2px auto;
+}
+.time {
+	width: 450px;
+	height: 50px;
+	border-bottom: 1px solid #f2f5f5;
+	color: #999;
+	font: 14px SimSun;
+	line-height:50px;
+}
+.buy{width: 450px;
+	height: 51px;
+	margin:37px 0 20px;}
+.buy .btnbuy{width: 258px;
+float:left;
+height: 50px;
+text-align: center;
+line-height: 50px;
+font-size: 26px;
+font-family: "microsoft yahei";
+display: inline-block;
+color: #fff;
+background: #fe8a4b;
+border-radius: 2px;
+border-bottom: 1px solid #e77c42;}
+.get { width:145px; height:37px; float:left; margin-left:30px; margin-top:5px;}
+.get li{width:55px; height:37px; float:left; font:12px 微软雅黑; line-height:37px; padding-left:14px;}
+.get .le{ border-right:1px solid #f0f0f0;}
+.get li img{ vertical-align:middle;}

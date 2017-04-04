@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,iframe,dl,dt,dd,ul,a,li,div,table,td,dr,dd{ margin:0px; padding:0px; list-style:none; text-decoration:none;}
+body{background:#FAFAFA; }
+#main{ width:100%; background: #F2F2F2;  }
+	/*标签部分*/
+#tagbg{ width:100%; height:183px;background:#FAFAFA;border-bottom: 1px solid #ccc;}
+	#tagbg #tag{ width:985px; height:182px; margin:0px auto;}
+	#tagbg #tag li{ float:left; font-size:12px; padding:0px 10px;}
+	/*标签本地热门*/
+	#tagbg #tag #hot{ padding-left:10px; height:36px; line-height:36px; color:#666;}
+	#tagbg #tag .hotTag{ color:#ff658e;}
+	
+	/*分类区域*/
+	#tagbg #tag #classify{ width:983px; height:98px; background:#FFF; border:1px solid #f0f0f0; border-bottom-color:#d8d8d8;}
+	/*通用ul li的设置*/
+	#tagbg #tag #classify ul{ width:983px; height:33px; margin-top:15px;font-family:"微软雅黑";}
+	#tagbg #tag #classify ul li{margin-left:5px; color:#666; height:20px;}
+	/*通用的标题、选中、数字*/
+	#tagbg #tag #classify .title{ color:#000; margin-left:8px; }
+	#tagbg #tag #classify .selected{ background-color:#ff658e; color:#FFFFFF;}
+	#tagbg #tag #classify .num{ font-size:10px; color:#999;padding-left:5px;}
+	/*分类第一行*/
+	#tagbg #tag .cf li{font-size:14px;}
+	/*分类第二行*/
+	#tagbg #tag #classify .cf2{margin-top:5px;}
+	#tagbg #tag #classify .cf2 li{font-size:12px; padding-top:3px;}
+	#tagbg #tag #classify .cf2 .title{font-size:14px;padding-top:0px;}
+	
+	/*筛选*/
+	#tagbg #tag #screen{ height:45px; line-height:45px; padding-left:10px;}
+	#tagbg #tag #screen li{ font-size:15px; font-family:"微软雅黑"; font-weight:bold; color:#666666;}
+	#tagbg #tag #screen .selected{color:#ff658e;}
+	/*主体内容*/
+	#body{ width:985px;  margin:0 auto; }
+	/*商品*/
+	#body #items{ width:752px;  float:left;}
+	#body #items dl{ width:362px; height:402px; border:1px solid #EDEDED; border-bottom-color:#D0D0D0; float:left; margin-top:15px; margin-right:12px; background-color:#FFFFFF;}
+	#body #items dd{ width:320px; margin:0px 20px; font-size:16px; color:#444;}
+	#body #items .title{font-family:"微软雅黑"; margin:0px 10px; font-size:18px; height:40px; line-height:40px;color:#222;}
+	#body #items .info{ height:50px; line-height:20px;}
+	#body #items .price{ height:40px;  border-bottom:1px solid #E3E3E3; vertical-align:text-bottom;font-family:"微软雅黑"; padding-top:20px;}
+	#body #items .price .newMoney{font-size: 36px;color: #fd8e51; font-family: Arial;margin-right:15px;}
+	#body #items .price .del{text-decoration: line-through; }
+	#body #items .sum{line-height: 31px;text-align: right;font-family: SimSun; font-size:12px; }
+	
+	/*其他*/
+	#body #other{ width:227px; height:1000px; float:left; margin-left:3px; }
+	#body #other img{ margin-top:16px;}
+	#body #other ul{ margin-top:40px;}
+	#body #other .title{ font-size:16px; font-family:"微软雅黑";}
+	#body #other ul li img{ margin:0px; padding:0px;}

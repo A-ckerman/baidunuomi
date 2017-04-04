@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body,li,ul,dl,dt,dd,div,input,a{padding:0px; margin:0px; list-style:none;}
+/*给整体设置背景*/
+body{background:url(../images/head/headbg.jpg) repeat-x;}
+
+#main{ width:985px; height:165px; margin:0px auto;}
+	/*导航条*/
+	#nav{width:985px; height:26px; line-height:25px;}
+	#nav li{ float:left; font-size:12px; }
+	#nav a{ color:#73abc9;}
+	#nav .city{width:150px;  float:left; height:15px;}
+	#nav .city li{ margin-left:10px; }
+	#nav .userInfo{width:250px;  float:right;}
+	#nav .userInfo #mynuomi{width:100px; background:none;}
+	#nav .userInfo li{ width:60px; text-align:center; background:url(../images/head/header-uc-border_bd0d6bf.png) no-repeat;}
+	/*搜索栏*/
+	#search{width:985px; height:88px; padding-top:12px;}
+	#search #logo{ width:350px; float:left;}
+	#search .sea{ width:600px; float:left;height:88px;}
+	/*搜索栏内表单元素*/
+	#search .sea #seaform{ width:415px;margin-top:16px; float:left; height:84px;}
+	#search .sea  #searchtext{ width:310px; height:38px; border:1px solid #CCCCCC; border-right:0px; float:left; text-indent:10px;}
+	#search .sea  #subBtn{ width:100px; height:40px; border:1px solid #ff658e;float:left;color: #fff;line-height: 38px;text-indent: 32px; background: #ff658e url(../images/head/search_5846627.png) 9px no-repeat ; font-size:17px; font-family:"微软雅黑";}
+	/*搜索框下面的字符链接*/
+	#search .sea #seaform ul{ height:25px; line-height:25px; }
+	#search .sea #seaform li{ float:left; margin-left:10px; font-size:10px; color:#666;}
+	/*搜索框右边的图片*/
+	#search .sea img{margin-left:30px;float:left; margin-top:16px;}
+	
+	/*菜单*/
+	#menu{width:985px;font-size:15px; color:#FFF;  line-height:40px; font-family:"微软雅黑";text-align:center;  height:40px; }
+	#menu a{ color:#FFFFFF;}
+	#menu li{float:left; }
+	/*菜单左侧*/
+	#menu #left{ float:left; width:400px; }
+	#menu #left li{ width:80px; }
+	#menu #left #moreText{width:110px;}
+	#menu #left .selected{background-color:#EE3968;}
+	#menu #left li:hover{ background-color:#EE3968;}
+	/*菜单右侧*/
+	#menu #right{width:180px; float:right;}
+	#menu #right li{ width:90px; font-size:12px;}
+	#menu #right .download{ background:url(../images/head/download.png) no-repeat 0px; text-indent:20px;}
+	#menu #right .history{ width:70px; background:url(../images/head/header-visited-triangle_f436122.png) no-repeat right 18px;}

@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+body,iframe,dl,dt,dd,ul,li,div,table,td,dr,dd,p{ margin:0px; padding:0px; list-style:none; }
+
+a{text-decoration:none;color:#333; font-size:12px;}
+/* 容器 */
+#container { width:985px; margin:0px auto;}
+/* 左侧标题部分 */
+#container .tit li a{  font-size:15px; font-family:"\5FAE\8F6F\96C5\9ED1",Simhei; }
+#container .tit li { width:100px; height:45px; float:left; list-style:none; line-height:40px; text-align:center; background:url(images/order/tab_line_fca168b.png) no-repeat center right; margin-bottom:-6px;}
+/* 选中订单样式  li 和a */
+#container .tit  .selli{ background:url(images/order/tab_bg_4ee2780.png) no-repeat left bottom ;}
+#container .tit .sela{ display:block; width:100px; height:27px; line-height:27px; margin-top:8px; background:url(images/order/tab_line_fca168b.png) no-repeat center right; }
+/*订单类型*/
+#container .tittype { clear:both; border-top:1px solid #CCC; width:680px; height:40px; margin-left:20px;} 
+#container .tittype li{ width:50px; height:20px; font-size:12px; float: left; margin-top:20px;}
+#container .tittype li a { display:block; width:50px; height:20px; line-height:20px;}
+#container .tittype li a:hover{ background-color:#ff5c89; color:rgba(255,255,255,1); }
+/*订单详情*/
+#container .tab{ width:680px; height:124px; font-size:12px; text-align:center; margin-top:20px;}
+#container .tab th{ border-top:1px solid #f0f0f0; background-color:#fafafa; font-weight:400;}
+#container .tab .order{ height:49px; line-height:49px; color:rgba(51,51,51,1);}
+#container .tab img{ vertical-align:middle;}
+/*右侧其他*/
+	#other{ width:245px; float:left;}
+	#other ul{width:215px; height:85px; background-color:#FAFAFA; padding:15px;margin-top:20px;}
+	/*右侧的团购记录*/
+	#other .title{ font-family:"微软雅黑"; font-size:16px; border-bottom:1px solid #f0f0f0; height:25px;}
+	#other .text{ width:215px; height:40px; background:url(images/order/icon_save_2db16ea.png) no-repeat left 15px; padding-top:10px;}
+	#other .text p{ font-size:14px;line-height:22px;color:#666; font-family:"微软雅黑";  padding-left:45px; }
+	/*右侧的客服电话*/
+	#other #phone .title{ font-size:18px; }
+	#other #phone .text{ background:url(images/order/faq_icon_phone_e934ff3.png) no-repeat left 15px;}
+	#leftorder,#other{ float:left;}
